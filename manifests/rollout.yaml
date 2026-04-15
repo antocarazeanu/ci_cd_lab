@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/antocarazeanu/ci_cd_lab:faulty
+          image: ghcr.io/antocarazeanu/ci_cd_lab:latest
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
