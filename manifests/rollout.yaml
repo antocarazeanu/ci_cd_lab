@@ -24,10 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/antocarazeanu/ci_cd_lab:latest
+          image: ghcr.io/antocarazeanu/ci_cd_lab:faulty
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
-           env:
-            - name: APP_VERSION
-              value: "versiunea-2"
